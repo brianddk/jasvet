@@ -515,8 +515,7 @@ def FormatText(t, sigctx, verbose=False):   #sigctx: False=what is displayed, Tr
 		else:
 			print '  -- Displayed: '+r.encode('hex')
 
-	return r
-
+	return t
 
 def crc24(m):
 	INIT = 0xB704CE
